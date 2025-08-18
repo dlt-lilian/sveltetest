@@ -4,7 +4,7 @@
 	"scripts": {
 		"start": "vite start",
 		"dev": "vite dev",
-		"build": "paraglide-js compile --project ./project.inlang && vite build",
+		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"prepack": "svelte-kit sync && svelte-package && publint",
