@@ -2,10 +2,9 @@
 	"name": "svelte-app",
 	"version": "0.0.1",
 	"scripts": {
-		"prebuild": "paraglide-js compile --project ./project.inlang",
 		"start": "vite start",
 		"dev": "vite dev",
-		"build": "vite build && npm run prepack",
+		"build": "paraglide-js compile --project ./project.inlang && vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"prepack": "svelte-kit sync && svelte-package && publint",
