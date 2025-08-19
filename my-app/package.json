@@ -2,7 +2,7 @@
 	"name": "my-app",
 	"version": "0.0.1",
 	"scripts": {
-		"prebuild": "vite prebuild",
+		"prebuild": "vite preview",
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
@@ -78,7 +78,7 @@
 		"svelte"
 	],
 	"dependencies": {
-		"@inlang/paraglide-js": "^2.0.0",
+		"@inlang/paraglide-js": "^2.2.0",
 		"@oslojs/crypto": "^1.0.1",
 		"@oslojs/encoding": "^1.1.0",
 		"drizzle-orm": "^0.40.0",
