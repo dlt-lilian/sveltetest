@@ -5,6 +5,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	preview: {
-		allowedHosts: ['https://sveltetest-production.up.railway.app'],
+		allowedHosts: ['sveltetest-production.up.railway.app'],
 	}
 });
